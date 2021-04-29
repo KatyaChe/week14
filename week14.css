@@ -1,0 +1,19 @@
+.conteiner {
+    display: flex;
+}
+.conteiner-small {
+    justify-content: space-between;
+    width: 380px;
+    height: 400px;
+    margin: 50px;
+    font-size: 25px;
+    border: 1px solid red;
+}
+.selected {
+    background-color: rosybrown;
+    border: 1px solid brown;
+}
+.selected1 {
+    background-color: white;
+    border: 1 px solid red;
+}
