@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .solovki {
+            height: 300px;
+            weight: 600px;
+        }
+    </style>
+</head>
+<body>
+    <table cellspacing="4" cellpadding="0" border="1">
+        <tr>
+         <td>
+          <img class="solovki"; src="1.jpg" name="r">
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <input type="button" value="Назад" onClick="bck()">  
+          <input type="button" value="Вперед" onClick="frw()">
+         </td>
+        </tr>
+       </table>
+    
+</body>
+<script language="JavaScript" type="text/javascript">
+    <!--
+    var current=1;
+    var kolvo=5; //количество картинок
+     
+    // массив картинок
+    tumb= new Array();
+    tumb[0]=new Image();   // картинка 1
+    tumb[1]=new Image();   // картинка 2
+    tumb[2]=new Image();   // картинка 3
+    tumb[3]=new Image();   // картинка 4
+    tumb[4]=new Image();   // картинка 5
+     
+    //сами картинки, не ошибитесь с путем...
+    tumb[0].src="1.jpg"
+    tumb[1].src="2.jpg"
+    tumb[2].src="3.jpg"
+    tumb[3].src="4.jpg"
+    tumb[4].src="5.jpg"
+     
+    function frw(){
+    if (current < kolvo) {
+    current++;
+    document.images['r'].src=tumb[current-1].src;
+    }
+    }
+    function bck(){
+    if (current > 1) {
+    current--;
+    document.images['r'].src=tumb[current-1].src;
+    }
+    }
+    -->
+    </script>
+    
+</html>
